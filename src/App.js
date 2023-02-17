@@ -31,7 +31,7 @@ export default function App() {
     };
 
     contacts.forEach(item => {
-      if (item.name !== name) {
+      if (item.name === name) {
         condition = false;
       }
     });
